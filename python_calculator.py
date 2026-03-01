@@ -15,7 +15,7 @@ def button_click(value):
 root = tk.Tk()
 root.title("Calculator")
 root.geometry("320x450")   # default size
-root.resizable(True, True) # ✅ maximize enabled
+root.resizable(True, True) # maximize enabled
 
 entry_var = tk.StringVar()
 entry = tk.Entry(
@@ -49,5 +49,6 @@ for i in range(4):
     root.grid_columnconfigure(i, weight=1)
 
 root.mainloop()
+
 
 
